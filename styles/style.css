@@ -7,6 +7,10 @@ header, main, .footerInner {
     max-width: 1250px;
     margin: 0 auto;
 }
+nav a:active {
+    background-color: transparent !important;
+    color: #FF4240 !important;
+}
 .themeText {
     color: #FF4240;
 }
