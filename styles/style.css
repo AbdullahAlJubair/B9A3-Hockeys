@@ -3,7 +3,7 @@
 * {
     font-family: "Manrope", sans-serif;
 }
-header, main {
+header, main, .footerInner {
     max-width: 1250px;
     margin: 0 auto;
 }

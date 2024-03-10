@@ -538,7 +538,8 @@
             <!-- Contact Container -->
             <div class="grid grid-cols-1 lg:grid-cols-3 justify-center items-center mt-12 gap-6">
                 <!-- Contact Details -->
-                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-y-6 md:gap-2 lg:gap-y-6 p-2 lg:p-6 border-2 border-gray-100 rounded-2xl">
+                <div
+                    class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-y-6 md:gap-2 lg:gap-y-6 p-2 lg:p-6 border-2 border-gray-100 rounded-2xl">
                     <div class="bg-[#BCED6D1A] p-8 rounded-2xl"> <!--Item-1-->
                         <div class="w-12 h-12 mb-5">
                             <img src="./images/call.png" alt="">
@@ -564,19 +565,24 @@
                 <!-- Contact Form -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-6 md:col-span-2 px-2 md:px-4 mt-16 lg:mt-0">
                     <label class="text-lg font-bold darkText" for="yourName">Your Name
-                        <input class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="yourName" type="text" placeholder="Enter your full name">
+                        <input class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="yourName"
+                            type="text" placeholder="Enter your full name">
                     </label>
                     <label class="text-lg font-bold darkText" for="yourEmail">Your Email
-                        <input class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="yourEmail" type="email" placeholder="Enter your email">
+                        <input class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="yourEmail"
+                            type="email" placeholder="Enter your email">
                     </label>
                     <label class="text-lg font-bold darkText" for="subject">Subject
-                        <input class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="subject" type="text" placeholder="Enter your subject">
+                        <input class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="subject"
+                            type="text" placeholder="Enter your subject">
                     </label>
                     <label class="text-lg font-bold darkText" for="number">Phone Number
-                        <input class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="number" type="tel" placeholder="Enter your phone number">
+                        <input class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="number" type="tel"
+                            placeholder="Enter your phone number">
                     </label>
                     <label class="text-lg font-bold darkText md:col-span-2" for="message">Message
-                        <textarea class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                        <textarea class="w-full bg-[#13131808] rounded-xl p-5 my-4 focus:outline-0" id="message"
+                            cols="30" rows="7" placeholder="Write your message"></textarea>
                     </label>
                     <input class="w-full btn text-white bg-[#FF4240] md:col-span-2" type="submit" value="Send Message">
                 </div>
@@ -593,7 +599,54 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="bg-[#131318] px-5 py-24">
+        <section class="footerInner grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-20 lg:gap-y-0 justify-center place-items-center">
+            <!----- Part-1 ----------->
+            <div class="flex flex-col gap-y-4 lg:gap-y-6 col-span-2 md:col-span-3 lg:col-span-1 text-center lg:text-left">
+                <h4 class="text-3xl font-extrabold text-white">Get In Touch</h4>
+                <p class="text-base font-medium text-[#FFFFFF99]">Dit amet consectetur. Condimentum adipiscing aliquam
+                    turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-base font-medium text-[#FFFFFF99]">
+                    <span><i class="fa-regular fa-envelope themeText"></i> &nbsp; hockeys@support.com</span>
+                </p>
+                <p class="text-base font-medium text-[#FFFFFF99]">
+                    <span><i class="fa-solid fa-phone themeText"></i> &nbsp; (+62) 123-321-543</span>
+                </p>
+            </div>
+            <!----- Part-2 ----------->
+            <div>
+                <h6 class="text-lg font-bold text-white mb-7">Company</h6>
+                <ul class="list-none flex flex-col gap-y-3">
+                    <li class="text-base font-medium text-[#FFFFFF99]">About us</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Leadership</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Careers</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">News & Article</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Legal Notice</li>
+                </ul>
+            </div>
+            <!----- Part-3 ----------->
+            <div>
+                <h6 class="text-lg font-bold text-white mb-7">Support</h6>
+                <ul class="list-none flex flex-col gap-y-3">
+                    <li class="text-base font-medium text-[#FFFFFF99]">Help Center</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">FAQ</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Careers</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Ticket Support</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Contact Us</li>
+                </ul>
+            </div>
+            <!----- Part-4 ----------->
+            <div class="col-span-2 md:col-span-1">
+                <h6 class="text-lg font-bold text-white mb-7">Services</h6>
+                <ul class="list-none flex flex-col gap-y-3">
+                    <li class="text-base font-medium text-[#FFFFFF99]">Academy</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Group Lesson</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Private Lesson</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Hockeys for kids</li>
+                    <li class="text-base font-medium text-[#FFFFFF99]">Hockeys for Adult</li>
+                </ul>
+            </div>
+        </section>
 
     </footer>
 </body>
